@@ -1,0 +1,6 @@
+seerhut@gmail.com
+http://www.seerhut.cn
+
+== compile ==
+qmake
+make
