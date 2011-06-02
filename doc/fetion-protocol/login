@@ -1,0 +1,252 @@
+R fetion.com.cn SIP-C/2.0
+F: 678345136
+I: 1 
+Q: 1 R
+L: 321
+
+<args><device type="PC" version="55" client-version="3.2.0540" /><caps value="simple-im;im-session;temp-group;personal-group" /><events value="contact;permission;system-message;personal-group" /><oem-tag value="cmcc.sjb0.inet.0024" /><user-info attributes="all" /><presence><basic value="400" desc="" /></presence></args>
+
+SIP-C/2.0 401 Unauthorized
+I: 1
+Q: 1 R
+W: Digest algorithm="MD5-sess;SHA1-sess",nonce="1C9A8C7B39E985A021BCD58115322B0C"
+------------------------------------------
+R fetion.com.cn SIP-C/2.0
+F: 678345136
+I: 1 
+Q: 2 R
+A: Digest algorithm="SHA1-sess",response="C4C307FC4138B6F617A5C0EC911C096B",cnonce="135EF96639E8E44E3027176562B2469C",salt="5FE81000"
+L: 321
+
+<args><device type="PC" version="55" client-version="3.2.0540" /><caps value="simple-im;im-session;temp-group;personal-group" /><events value="contact;permission;system-message;personal-group" /><oem-tag value="cmcc.sjb0.inet.0024" /><user-info attributes="all" /><presence><basic value="400" desc="" /></presence></args>
+
+SIP-C/2.0 200 OK
+I: 1
+Q: 2 R
+X: 600
+L: 903
+
+<results><client public-ip="221.237.0.222"><custom-config version="66">l77n..(BASE64)..zAAA</custom-config></client><user-info personal-info-version="6" contact-version="9" permission-version="2"/><presence result="200"/></results>
+===============================================login ends
+S fetion.com.cn SIP-C/2.0
+F: 678345136
+I: 2 
+Q: 1 S
+N: GetPersonalInfo
+L: 156
+
+<args>
+	<personal attributes="all" />
+	<services version="" attributes="all" />
+	<config version="12" attributes="all" />
+	<mobile-device attributes="all" />
+</args>
+
+SIP-C/2.0 200 OK
+I: 2
+Q: 1 S
+L: 703
+
+<results>
+	<personal version="6" mobile-no="13911680859" nickname="......" impresa="" name="" 
+			gender="1" birth-date="1982-08-14" birthday-valid="1" nation="CN" province="bj" city="10" 
+			profile="" lunar-animal="11" horoscope="8" blood-type="1" occupation="" hobby="" 
+			portrait-crc="598224859" job-title="" home-phone="" work-phone="" other-phone="" 
+			personal-email="seerhut@gmail.com" work-email="" other-email="" primary-email="1" company="" 
+			company-website="" ivr-enabled="1" match-enabled="0" />
+	<services version="6">
+		<service id="Imps" name="............" desc="...........................10086..."/>
+	</services>
+	<config version="13" save-message="0" experience="0" save-mms="0" />
+	<mobile-device />
+</results>
+==============================================
+S fetion.com.cn SIP-C/2.0
+F: 678345136
+I: 4 
+Q: 1 S
+N: PGGetGroupList
+L: 66
+
+<args><group-list version="0" attributes="name;identity" /></args>
+
+SIP-C/2.0 200 OK
+I: 4
+Q: 1 S
+L: 59
+
+<results><group-list  version ="0" ></group-list></results>
+================================================
+SUB fetion.com.cn SIP-C/2.0
+F: 678345136
+I: 5 
+Q: 1 SUB
+N: presence
+L: 534
+
+<args>
+	<subscription>
+		<contacts>
+			<contact uri="sip:585195198@fetion.com.cn;p=5005" />
+			<contact uri="sip:756444636@fetion.com.cn;p=1414" />
+			<contact uri="sip:758936988@fetion.com.cn;p=1082" />
+		</contacts>
+		<presence>
+			<basic attributes="all" />
+			<personal attributes="all" />
+			<extended types="sms;location;listening;ring-back-tone" />
+		</presence>
+	</subscription>
+	<subscription>
+		<contacts>
+			<contact uri="sip:678345136@fetion.com.cn;p=5017" />
+		</contacts>
+		<presence>
+			<extended types="sms;location;listening;ring-back-tone" />
+		</presence>
+	</subscription>
+</args>
+
+SIP-C/2.0 200 OK
+I: 5
+Q: 1 SUB
+X: 25200
+L: 343
+
+<results>
+	<subscription>
+		<contacts>
+			<contact uri="sip:756444636@fetion.com.cn;p=1414" status-code="200" />
+			<contact uri="sip:758936988@fetion.com.cn;p=1082" status-code="200" />
+		</contacts>
+		<presence>
+			<basic attributes="all" />
+			<personal attributes="all" />
+			<extended types="sms;location;listening;ring-back-tone" />
+		</presence>
+	</subscription>
+</results>
+--------------------------------------------
+BN 678345136 SIP-C/2.0
+Q: 1 BN
+N: presence
+X: 25199
+I: 5
+L: 769
+
+<events>
+	<event type="PresenceChanged">
+		<presence uri="sip:756444636@fetion.com.cn;p=1414">
+			<basic device-id="" value="0" desc="" device-type="" device-caps="" />
+			<personal nickname="......" impresa=":qw" portrait-crc="598224859" />
+			<extended type="sms">
+				0.0:0:0
+			</extended>
+			<extended type="listening">
+			</extended>
+			<extended type="location">
+				<location city="" distance="" />
+			</extended>
+		</presence>
+		<presence uri="sip:758936988@fetion.com.cn;p=1082">
+			<basic device-id="" value="0" desc="" device-type="" device-caps="" />
+			<personal nickname="......" impresa="....................." portrait-crc="-1449886332" />
+			<extended type="sms">0.0:0:0</extended><extended type="listening">
+			</extended>
+			<extended type="location">
+				<location city="" distance="" />
+			</extended>
+		</presence>
+	</event>
+</events>
+
+BN 678345136 SIP-C/2.0
+N: presence
+Q: 2 BN
+I: 5
+X: 25200
+L: 527
+
+<events><event type="SubscribeResult"><results><subscription><contacts><contact uri="sip:585195198@fetion.com.cn;p=5005" status-code="200" /></contacts><presence><basic attributes="all" /><personal attributes="all" /><extended types="sms;location;listening;ring-back-tone" /></presence></subscription><subscription><contacts><contact uri="sip:678345136@fetion.com.cn;p=5017" status-code="200" /></contacts><presence><extended types="sms;location;listening;ring-back-tone" /></presence></subscription></results></event></events>
+
+BN 678345136 SIP-C/2.0
+Q: 3 BN
+N: presence
+X: 25199
+I: 5
+L: 717
+
+<events><event type="PresenceChanged"><presence uri="sip:585195198@fetion.com.cn;p=5005"><basic device-id="PCCL0538466576" value="400" desc="" device-type="PC" device-caps="simple-im,im-session,temp-group,personal-group" /><personal nickname="........." impresa=".........................................." portrait-crc="2074595345" /><extended type="sms">0.0:0:0</extended><extended type="listening"></extended><extended type="location"><location city="" distance="" /></extended></presence><presence uri="sip:678345136@fetion.com.cn;p=5017"><extended type="sms">0.0:0:0</extended><extended type="listening"></extended><extended type="location"><location city="" distance="" /></extended></presence></event></events>
+========================================================
+S fetion.com.cn SIP-C/2.0
+F: 678345136
+I: 6 
+Q: 1 S
+N: GetContactsInfo
+L: 352
+
+<args><contacts attributes="provisioning;impresa;mobile-no;nickname;name;gender;portrait-crc;ivr-enabled" extended-attributes="score-level"><contact uri="sip:585195198@fetion.com.cn;p=5005" version="17" /><contact uri="sip:756444636@fetion.com.cn;p=1414" version="7" /><contact uri="sip:758936988@fetion.com.cn;p=1082" version="12" /></contacts></args>
+
+SIP-C/2.0 200 OK
+I: 6
+Q: 1 S
+L: 127
+
+<results><contacts><contact uri="sip:585195198@fetion.com.cn;p=5005"><extended score-level="3"/></contact></contacts></results>
+-------------------------------------------
+BN 678345136 SIP-C/2.0
+N: contact
+Q: 2 BN
+I: 6
+L: 195
+
+<events>
+	<event type="ServiceResult">
+		<results>
+			<contacts>
+				<contact uri="sip:585195198@fetion.com.cn;p=5005" status-code="200">
+					<personal version="17"/>
+				</contact>
+			</contacts>
+		</results>
+	</event>
+</events>
+
+BN 678345136 SIP-C/2.0
+N: contact
+Q: 3 BN
+I: 6
+L: 267
+
+<events><event type="ServiceResult"><results><contacts><contact uri="sip:756444636@fetion.com.cn;p=1414"><extended score-level="1"/></contact><contact uri="sip:758936988@fetion.com.cn;p=1082"><extended score-level="1"/></contact></contacts></results></event></events>
+
+BN 678345136 SIP-C/2.0
+N: contact
+Q: 4 BN
+I: 6
+L: 296
+
+<events><event type="ServiceResult"><results><contacts><contact uri="sip:756444636@fetion.com.cn;p=1414" status-code="200"><personal version="7"/></contact><contact uri="sip:758936988@fetion.com.cn;p=1082" status-code="200"><personal version="12"/></contact></contacts></results></event></events>
+====================================================
+S fetion.com.cn SIP-C/2.0
+F: 678345136
+I: 7 
+Q: 1 S
+N: GetOfflineMessages
+
+SIP-C/2.0 200 OK
+I: 7
+Q: 1 S
+================================================
+S fetion.com.cn SIP-C/2.0
+F: 678345136
+I: 8 
+Q: 1 S
+N: GetScore
+
+SIP-C/2.0 200 OK
+I: 8
+Q: 1 S
+L: 65
+
+<results><score value="56" level="0" level-score="56"/></results>

@@ -1,0 +1,179 @@
+=====================================
+I 678345136 SIP-C/2.0
+F: sip:756444636@fetion.com.cn;p=1414
+I: -93
+K: text/plain
+K: text/html-fragment
+K: multiparty
+K: nudge
+K: share-background
+Q: 94 I
+L: 21
+
+s=session
+m=message 
+
+--------------------------------
+SIP-C/2.0 200 OK
+I: -93 
+Q: 94 I
+F: sip:756444636@fetion.com.cn;p=1414
+K: text/plain
+K: text/html-fragment
+K: multiparty
+K: nudge
+L: 129
+
+v=0
+o=-0 0 IN 127.0.0.1:1145
+s=session
+c=IN IP4 127.0.0.1:1145
+t=0 0
+m=message 1145 sip sip:678345136@fetion.com.cn;p=5017
+
+---------------------------------------
+A 678345136 SIP-C/2.0
+F: sip:756444636@fetion.com.cn;p=1414
+I: -93
+Q: 94 A
+
+============================================i
+M 678345136 SIP-C/2.0
+I: -93
+Q: 3 M
+F: sip:756444636@fetion.com.cn;p=1414
+C: text/html-fragment
+K: SaveHistory
+L: 58
+D: Thu, 16 Apr 2009 14:38:02 GMT
+XI: 423938116e2545249677dc98f65e6559
+
+<Font Face='......' Color='-16777216' Size='10.5'>a</Font>
+
+SIP-C/2.0 200 OK
+F: sip:756444636@fetion.com.cn;p=1414
+I: -93 
+Q: 3 M
+
+===========================================o
+M fetion.com.cn SIP-C/2.0
+F: 678345136
+I: -93 
+Q: 2 M
+T: sip:756444636@fetion.com.cn;p=1414
+C: text/html-fragment
+K: SaveHistory
+L: 57
+
+<Font Face='Arial' Color='-16777216' Size='10.5'>b</Font>
+
+SIP-C/2.0 200 OK
+I: -93
+Q: 2 M
+D: Thu, 16 Apr 2009 14:38:09 GMT
+XI: 7faefd68dace4cd49ba5eb56b80f1259
+T: sip:756444636@fetion.com.cn;p=1414
+
+================================================
+B fetion.com.cn SIP-C/2.0
+F: 678345136
+I: -93 
+Q: 3 B
+T: sip:756444636@fetion.com.cn;p=1414
+
+SIP-C/2.0 200 OK
+T: sip:756444636@fetion.com.cn;p=1414
+I: -93
+Q: 3 B
+
+==================================================
+BN 678345136 SIP-C/2.0
+I: 4
+Q: 97 BN
+N: PGGroup
+L: 191
+
+<events><event type="PresenceChanged"><group uri="sip:PG5709625@fetion.com.cn;p=1414">
+<member uri="sip:756444636@fetion.com.cn;p=1414" state="400" client-type="PC" />
+</group></event></events>
+
+===================================================
+I 678345136 SIP-C/2.0
+F: sip:756444636@fetion.com.cn;p=1414
+I: -98
+K: text/plain
+K: text/html-fragment
+K: multiparty
+K: nudge
+K: share-background
+Q: 99 I
+L: 21
+
+s=session
+m=message 
+
+SIP-C/2.0 200 OK
+I: -98 
+Q: 99 I
+F: sip:756444636@fetion.com.cn;p=1414
+K: text/plain
+K: text/html-fragment
+K: multiparty
+K: nudge
+L: 129
+
+v=0
+o=-0 0 IN 127.0.0.1:1145
+s=session
+c=IN IP4 127.0.0.1:1145
+t=0 0
+m=message 1145 sip sip:678345136@fetion.com.cn;p=5017
+
+A 678345136 SIP-C/2.0
+F: sip:756444636@fetion.com.cn;p=1414
+I: -98
+Q: 99 A
+
+=======================================================
+B 678345136 SIP-C/2.0
+F: sip:756444636@fetion.com.cn;p=1414
+I: -98
+Q: 101 B
+
+SIP-C/2.0 200 OK
+F: sip:756444636@fetion.com.cn;p=1414
+I: -98 
+Q: 101 B
+
+==================================================
+BN 678345136 SIP-C/2.0
+I: 4
+Q: 102 BN
+N: PGGroup
+L: 172
+
+<events><event type="PresenceChanged"><group uri="sip:PG5709625@fetion.com.cn;p=1414">
+<member uri="sip:756444636@fetion.com.cn;p=1414" state="0" /></group></event></events>
+
+BN 678345136 SIP-C/2.0
+N: presence
+I: 11
+Q: 103 BN
+X: 0
+L: 261
+
+<events><event type="PresenceChanged">
+<presence uri="sip:756444636@fetion.com.cn;p=1414">
+<basic device-id="PCCL030437183712" value="0" desc="" device-type="PC" 
+device-caps="simple-im;im-session;temp-group;personal-group" />
+</presence>
+</event></events>
+
+BN 678345136 SIP-C/2.0
+I: 4
+Q: 104 BN
+N: PGGroup
+L: 172
+
+<events><event type="PresenceChanged"><group uri="sip:PG5709625@fetion.com.cn;p=1414">
+<member uri="sip:756444636@fetion.com.cn;p=1414" state="0" /></group></event></events>

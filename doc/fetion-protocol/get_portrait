@@ -1,0 +1,17 @@
+GET /hds/getportrait.aspx?Uri=sip:678345136@fetion.com.cn;p=5017&Size=96&c=DAgHAAD...3d%3d HTTP/1.1
+User-Agent: IIC2.0/PC 3.2.0540
+Accept: image/pjpeg;image/jpeg;image/bmp;image/x-windows-bmp;image/png;image/gif
+Host: 221.130.45.205
+Connection: Keep-Alive
+
+HTTP/1.1 200 OK
+Connection: close
+Date: Sat, 13 Dec 2008 02:42:30 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Set-Cookie: ssic=DAgHAAD0...QAVGQYg==; expires=Sun, 14-Dec-2008 02:42:30 GMT; path=/
+Set-Cookie: ASP.NET_SessionId=ha1w0g55rwyd2i4545wqzqz4; path=/; HttpOnly
+Cache-Control: private
+Content-Type: image/pjpeg
+Content-Length: 4210

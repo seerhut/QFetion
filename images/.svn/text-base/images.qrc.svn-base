@@ -1,0 +1,17 @@
+<!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+     <file alias="client ena">client_ena.png</file>
+     <file alias="client dis">client_dis.png</file>
+     <file alias="pet dis">pet_dis.png</file>
+     <file alias="pet ena">pet_ena.png</file>
+     <file alias="phone chat">phone_chat.png</file>
+     <file alias="client chat">client_chat.png</file>
+     <file alias="sms ena">sms_ena.png</file>
+     <file alias="sms dis">sms_dis.png</file>
+     <file alias="friend">friend.png</file>
+     <file alias="people">people.png</file>
+     <file alias="love">love.png</file>
+     <file alias="sun">sun.gif</file>
+     <file alias="space">space.png</file>
+ </qresource>
+ </RCC>

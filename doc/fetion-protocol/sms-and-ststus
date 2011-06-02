@@ -1,0 +1,51 @@
+M fetion.com.cn SIP-C/2.0
+F: 756444636
+I: 25 
+Q: 2 M
+T: sip:585195198@fetion.com.cn;p=5005
+C: text/plain
+K: SaveHistory
+L: 4
+
+test
+
+SIP-C/2.0 280 Send SMS OK
+T: sip:585195198@fetion.com.cn;p=5005
+I: 25
+Q: 2 M
+D: Mon, 01 Dec 2008 07:59:51 GMT
+XI: 3486fdca90f94ce5837c997274839bbe
+========================================
+S fetion.com.cn SIP-C/2.0
+F: 756444636
+I: 26 
+Q: 1 S
+N: SetPresence
+L: 55
+
+<args><presence><basic value="600" /></presence></args>
+
+SIP-C/2.0 200 OK
+I: 26
+Q: 1 S
+L: 69
+
+<results><presence><basic value="600" desc="" /></presence></results>
+
+=============================================
+
+S fetion.com.cn SIP-C/2.0
+F: 756444636
+I: 27 
+Q: 1 S
+N: SetPresence
+L: 55
+
+<args><presence><basic value="400" /></presence></args>
+
+SIP-C/2.0 200 OK
+I: 27
+Q: 1 S
+L: 69
+
+<results><presence><basic value="400" desc="" /></presence></results>

@@ -1,0 +1,209 @@
+
+"<?xml version="1.0" encoding="utf-8" ?>
+<config>
+	<servers version="76">
+		<sipc-proxy>221.176.31.1:8080</sipc-proxy>
+		<sipc-ssl-proxy>221.176.31.1:443</sipc-ssl-proxy>
+		<http-tunnel>http://221.176.31.1/ht/sd.aspx
+		</http-tunnel>
+		<ssi-app-sign-in>https://221.130.45.201/ssiportal/SSIAppSignIn.aspx
+		</ssi-app-sign-in>
+		<ssi-app-sign-out>http://221.130.45.201/ssiportal/SSIAppSignOut.aspx
+		</ssi-app-sign-out>
+		<stun-urls>stunserver.org:3478</stun-urls>
+		<sub-service>https://221.130.45.201/nav/Subscribe.aspx
+		</sub-service>
+		<apply-sub-service>HTTP://221.130.45.201/nav/ApplySubscribe.aspx
+		</apply-sub-service>
+		<crbt-portal>http://221.130.46.134/crbt/default.aspx
+		</crbt-portal>
+		<email-adapter>http://221.130.45.215/EmailAdapter/
+		</email-adapter>
+		<get-general-info>HTTP://221.130.45.201/nav/GeneralGetInfo.aspx
+		</get-general-info>
+		<get-pic-code>HTTP://221.130.45.201/nav/GetPicCode.aspx
+		</get-pic-code>
+		<get-svc-order-status>
+			HTTP://221.130.45.201/nav/GetSvcOrderStatus.aspx
+		</get-svc-order-status>
+		<get-system-status>HTTP://221.130.45.201/nav/GetSystemStatus.aspx
+		</get-system-status>
+		<get-uri>HTTP://221.130.45.205/hds/geturi.aspx
+		</get-uri>
+		<group-category>HTTP://221.130.45.201/nav/GetGroupCategory.aspx
+		</group-category>
+		<group-website>
+			http://group.fetion.com.cn/GroupSpace/Default.aspx?GroupID=
+		</group-website>
+		<j2me-adapter></j2me-adapter>
+		<matching-portal></matching-portal>
+		<portal>http://www.fetion.com.cn/</portal>
+		<server-caps>simple-im;im-session;temp-group;poc;personal-group
+		</server-caps>
+		<server-version>2.5.8.0531</server-version>
+		<smartphone-adapter>221.130.46.131:8040
+		</smartphone-adapter>
+		<update-pwd>https://uid.fetion.com.cn/nav/UpdatePwd.aspx
+		</update-pwd>
+		<wap-client-sign-in>
+			http://221.130.45.201/ssiportal/SSIWapClientSignIn.aspx
+		</wap-client-sign-in>
+	</servers>
+
+
+	<service-no version="39">
+		<help-desk>10086</help-desk>
+		<ivr>12520</ivr>
+		<mms></mms>
+		<rbt>12530</rbt>
+		<sms>12520</sms>
+	</service-no>
+	<parameters version="46">
+		<max-share-content-size>10485760</max-share-content-size>
+		<batch-sms-max-receivers>32</batch-sms-max-receivers>
+		<forbidden-share-content-type>exe;bat;cmd;msi
+		</forbidden-share-content-type>
+		<groupcategory-version>1</groupcategory-version>
+		<ivr-invite-timeout>60</ivr-invite-timeout>
+		<max-daily-sms-time>3</max-daily-sms-time>
+		<max-emotion-pic-rect>200*200</max-emotion-pic-rect>
+		<max-emotion-pic-size>51200</max-emotion-pic-size>
+		<max-groupadmin-count>3</max-groupadmin-count>
+		<max-groupuser-count>150</max-groupuser-count>
+		<max-ivr-participants>8</max-ivr-participants>
+		<max-joingroup-count>10</max-joingroup-count>
+		<max-joingroup-invite-count>32</max-joingroup-invite-count>
+		<max-month-sms-time>31</max-month-sms-time>
+		<max-msg-convert-sms>3</max-msg-convert-sms>
+		<max-msg-length>400</max-msg-length>
+		<max-sms-length>180</max-sms-length>
+		<max-sms-unicode>70</max-sms-unicode>
+		<max-superadmin-count>2</max-superadmin-count>
+		<max-voice-clip-size>204800</max-voice-clip-size>
+		<offline-max-share-content-size>2048000
+		</offline-max-share-content-size>
+		<portrait-file-type>
+			image/pjpeg;image/jpeg;image/bmp;image/x-windows-bmp;image/png;image/gif
+		</portrait-file-type>
+		<score-config>
+			<level value="0" score="0" />
+			<level value="1" score="150" />
+			<level value="2" score="400" />
+			<level value="3" score="750" />
+			<level value="4" score="1200" />
+			<level value="5" score="1750" />
+			<level value="6" score="2400" />
+			<level value="7" score="3150" />
+			<level value="8" score="4000" />
+			<level value="9" score="4950" />
+			<level value="10" score="6000" />
+			<level value="11" score="7150" />
+			<level value="12" score="8400" />
+			<level value="13" score="9750" />
+			<level value="14" score="11200" />
+			<level value="15" score="12750" />
+			<level value="16" score="14400" />
+			<level value="17" score="16150" />
+			<level value="18" score="18000" />
+			<level value="19" score="19950" />
+			<level value="20" score="22000" />
+			<level value="21" score="24150" />
+			<level value="22" score="26400" />
+			<level value="23" score="28750" />
+			<level value="24" score="31200" />
+			<level value="25" score="33750" />
+			<level value="26" score="36400" />
+			<level value="27" score="39150" />
+		</score-config>
+		<searchgroup-pagesize>10</searchgroup-pagesize>
+		<single-sms-max-length>70</single-sms-max-length>
+		<temp-group-max-share-content-size>2048000
+		</temp-group-max-share-content-size>
+		<voice-clip-encoding>amr515;pcm</voice-clip-encoding>
+		<max-blacklist>128</max-blacklist>
+		<max-buddies>300</max-buddies>
+		<max-buddy-list>64</max-buddy-list>
+		<max-chat-buddies>20</max-chat-buddies>
+	</parameters>
+	<hints version="40">
+		<i-not-log-on>æ¨æ²¡æç»å½ï¼ä¸è½åéæ¶æ¯
+		</i-not-log-on>
+		<i-not-online>æ¨å½åçç¶æè®¾ç½®ä¸ºâ{0}â
+		</i-not-online>
+		<participants-not-online>
+			ä¸äºåä¸èå¯è½æ æ³åæ¶åå¤æ¨çæ¶æ¯
+		</participants-not-online>
+		<user-busy>
+			{0}å¯è½æ æ³åæ¶åå¤æ¨çæ¶æ¯ï¼å ä¸º{1}çç¶æä¸º{2}ã
+		</user-busy>
+		<user-in-blacklist>
+			å¯¹æ¹å¨æ¨çé»ååä¸­ï¼æ¨ä¸è½åä»ä¼è¯
+		</user-in-blacklist>
+		<user-offline>{0}å·²ç¦»çº¿ï¼ä¸è½ç«å³æ¶å°æ¨çæ¶æ¯ã
+			æ¨åéçæ¶æ¯å°è¢«ä¿å­ä¸æ¥å¹¶å»¶è¿åéã</user-offline>
+		<user-sms-status>
+			{0}æ²¡æç»å½ï¼æ¨çæ¶æ¯å°ä¼ä»¥ç­ä¿¡åéå°å¯¹æ¹çææºãæ¯æ¡æ¶æ¯æå¤{1}ä¸ªå­ç¬¦ï¼æ ¹æ®æ¨è¾å¥çåå®¹é¿åº¦ï¼æ¶æ¯å¯è½ä¼è¢«æä¸º2ï½{2}æ¡ç­ä¿¡ã
+		</user-sms-status>
+	</hints>
+	<http-applications version="46">
+		<check-emotion-pic-url>HTTP://221.176.31.2/hds/checkemotionpic.aspx
+		</check-emotion-pic-url>
+		<crbt-common-access>http://221.176.31.2/hds/CrbtCommonAccess.aspx
+		</crbt-common-access>
+		<del-portrait>http://221.176.31.2/hds/DeletePortrait.aspx
+		</del-portrait>
+		<delete-msg-history>http://221.176.31.2/hds/DeleteMessageHistory.aspx
+		</delete-msg-history>
+		<get-ad>http://221.176.31.2/hds/GetAd.aspx
+		</get-ad>
+		<get-addressbook-info>HTTP://221.176.31.2/hds/GetAddressBook.aspx
+		</get-addressbook-info>
+		<get-emotion-pic-url>HTTP://221.176.31.2/hds/GetEmotionPic.aspx
+		</get-emotion-pic-url>
+		<get-group-portrait>http://221.176.31.2/hds/getgroupportrait.aspx
+		</get-group-portrait>
+		<get-personal-ext-info>http://221.176.31.2/hds/getpresenceinfo.aspx
+		</get-personal-ext-info>
+		<get-personal-info>http://221.176.31.2/hds/getpersonalinfo.aspx
+		</get-personal-info>
+		<get-portrait>http://221.176.31.2/hds/getportrait.aspx
+		</get-portrait>
+		<get-tab-info>http://221.176.31.2/hds/GetTabInfo.aspx
+		</get-tab-info>
+		<query-msg-history>http://221.176.31.2/hds/QueryMessageHistory.aspx
+		</query-msg-history>
+		<record-share-content-op>
+			http://221.176.31.2/hds/recordsharecontentevent.aspx
+		</record-share-content-op>
+		<relay-upload-share-content>
+			http://221.176.31.3/hds/RamRelayUploadShareContent.aspx
+		</relay-upload-share-content>
+		<set-addressbook-info>HTTP://221.176.31.2/hds/SetAddressBook.aspx
+		</set-addressbook-info>
+		<set-emotion-pic-url>HTTP://221.176.31.2/hds/setemotionpic.aspx
+		</set-emotion-pic-url>
+		<set-group-portrait>http://221.176.31.2/hds/setgroupportrait.aspx
+		</set-group-portrait>
+		<set-personal-info>http://221.176.31.2/hds/setpersonalinfo.aspx
+		</set-personal-info>
+		<set-portrait>http://221.176.31.2/hds/setportrait.aspx
+		</set-portrait>
+		<set-tone-info>http://221.176.31.2/hds/SetToneInfo.aspx
+		</set-tone-info>
+		<upload-share-content>
+			http://221.176.31.2/hds/BlockUploadShareContent.aspx
+		</upload-share-content>
+		<get-addressbook-config>
+			HTTP://221.130.45.201/nav/GetAddressBookConfig.aspx
+		</get-addressbook-config>
+		<phoenix-info-url>
+			http://221.130.45.218/FetionNews/magus/channelindex.xml
+		</phoenix-info-url>
+	</http-applications>
+	<client version="2.0.0.0">
+		<compatible>2.0.0.0</compatible>
+		<date>2006-7-27 18:48:27</date>
+		<pc-live-update value="http://221.130.45.198" />
+	</client>
+</config>
+" 

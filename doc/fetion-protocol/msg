@@ -1,0 +1,34 @@
+S fetion.com.cn SIP-C/2.0
+F: 756444636
+I: 31 
+Q: 1 S
+N: SetPresence
+L: 55
+
+<args><presence><basic value="400" /></presence></args>
+
+SIP-C/2.0 200 OK
+I: 31
+Q: 1 S
+L: 69
+
+<results><presence><basic value="400" desc="" /></presence></results>
+==============================================
+M fetion.com.cn SIP-C/2.0
+F: 756444636
+I: 29 
+Q: 3 M
+T: sip:585195198@fetion.com.cn;p=5005
+C: text/html-fragment
+K: SaveHistory
+L: 63
+
+<Font Face='宋体' Color='-16777216' Size='10.5'>啊啊</Font>
+
+SIP-C/2.0 200 OK
+Q: 3 M
+T: sip:585195198@fetion.com.cn;p=5005
+I: 29
+D: Sat, 29 Nov 2008 13:08:12 GMT
+XI: aa78f99e25154134ada479add8770ee4
+
