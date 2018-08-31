@@ -1,3 +1,5 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fseerhut%2FQFetion.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fseerhut%2FQFetion?ref=badge_shield)
+
 Deprecated
 
 seerhut@gmail.com
@@ -6,3 +8,7 @@ http://www.seerhut.cn
 == compile ==
 qmake
 make
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fseerhut%2FQFetion.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fseerhut%2FQFetion?ref=badge_large)
